@@ -28,7 +28,7 @@ export const BikeRent = (props:T.BikeProps) => {
         <B.Texts>
           <B.Name>{props.bike.name}</B.Name>
           <B.Autonomy>0.1 Watt por quilometro</B.Autonomy>
-          <B.Autonomy>Autonomia {props.bike.autonomy} KM</B.Autonomy>
+          <B.Autonomy>Autonomia {props.bike.autonomy.toFixed(2)} KM</B.Autonomy>
           <B.Autonomy>Energia {props.bike.energy}%</B.Autonomy>
           <B.Place>encontrada na doca {props.bike.doca} do posto eletrico</B.Place>
         </B.Texts>
