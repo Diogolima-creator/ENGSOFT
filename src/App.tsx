@@ -12,7 +12,7 @@ import * as A from './AppStyles'
 import * as T from './types/types'
 
 function App() {
-  const [page, setPage] = useState(0)
+  const [page, setPage] = useState(99)
   const [bike, setBike] = useState<T.Bike>({
     name: '',
     img: '',
