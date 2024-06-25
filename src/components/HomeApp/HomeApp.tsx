@@ -10,22 +10,22 @@ export const HomeApp = (props:T.Screen) => {
     name:'Pedro Conte',
     bike:'Bicicleta Eletrica',
     km: 12,
-    url: './images/pedro.png'
+    url: './../../pedro.png'
   },{
     name:'Teilor Ferraz',
     bike:'Bicicleta Eletrica',
     km: 9,
-    url: './images/teylor.png'
+    url: './../../teylor.png'
   },{
     name:'Davi Mortari',
     bike:'Bicicleta Eletrica',
     km: 5,
-    url: './images/davi.png'
+    url: './../../davi.png'
   },{
     name:'Diogo Lima',
     bike:'Bicicleta Eletrica',
     km: 3,
-    url: './images/diogo.png'
+    url: './../../diogo.png'
   }]
 
 

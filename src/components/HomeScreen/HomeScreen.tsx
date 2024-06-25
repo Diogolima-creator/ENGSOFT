@@ -39,7 +39,7 @@ export const HomeScreen = (props:T.Screen) => {
      <H.Home>
      <H.Support><QuestionMarkIcon sx={{ cursor:'pointer', border: '2px solid black', borderRadius:'45px', padding:'1px', width:20, height:20}}/></H.Support>
       <H.Header>
-        <H.Logo src='images/logo.png'/>
+        <H.Logo src='../../logo.png'/>
         <H.HeaderText>BikeAPP</H.HeaderText>
       </H.Header>
       {!(showLogin || showRegister) && 
@@ -73,7 +73,7 @@ export const HomeScreen = (props:T.Screen) => {
       </H.Footer>
     </H.Home> : 
     <H.Box>
-      <H.LogoLoading src='images/logo.png'/>
+      <H.LogoLoading src='../../logo.png'/>
       <H.LoadingText>BikeAPP</H.LoadingText>
     </H.Box>
     

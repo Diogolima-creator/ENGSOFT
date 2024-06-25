@@ -16,7 +16,7 @@ export const Account = (props:T.Screen) => {
     <A.Account>
       <A.Header><KeyboardBackspaceIcon onClick={() => props.setPage(3)}sx={{ width:26, height:28, cursor: 'pointer'}}/> <A.Text>CONTA</A.Text></A.Header>
       <A.Content>
-        <A.ProfilePic src='images/davi.png'/>
+        <A.ProfilePic src='../../davi.png'/>
         <A.Label>Nome</A.Label>
         <A.Input value={user.name}/>
         <A.Label>Email</A.Label>
