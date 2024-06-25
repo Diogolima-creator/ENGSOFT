@@ -6,7 +6,7 @@ export const OpenApp = (props:T.Screen) => {
     <O.OpenApp>
       <O.Img>
         <O.Icon onClick={() => props.setPage(0)}>
-            <O.IconImg src='/images/logo.png'/>
+            <O.IconImg src='../../logo.png'/>
             <O.IconName >BikeAPP</O.IconName>
         </O.Icon>
       </O.Img>
