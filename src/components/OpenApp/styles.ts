@@ -9,7 +9,7 @@ export const OpenApp = styled.div`
 export const Img = styled.div`
   width:100%;
   height:100%;
-  background:url(../../images/wallpaper.jpeg);
+  background:url(/images/wallpaper.jpeg);
   background-size: contain;
   border-radius:10px;
 `;
