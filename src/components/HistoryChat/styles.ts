@@ -35,7 +35,7 @@ export const ChatItem = styled.div`
   flex-direction:column;
   flex-wrap:wrap;
   height:100px;
-  align-items:center;
+  align-items:start;
   justify-content:center;
   text-align:start;
   gap:5px;
@@ -56,7 +56,6 @@ export const ProfilePic = styled.img`
 
 export const TicketId = styled.p`
   margin:0;
-  width:100%;
   padding-left:10px;
   color:grey;
   font-size:13px;
@@ -64,7 +63,6 @@ export const TicketId = styled.p`
 
 export const Name = styled.p`
   margin:0;
-  width:100%;
   padding-left:10px;
   font-weight:600;
   font-size:17px;
@@ -72,7 +70,6 @@ export const Name = styled.p`
 
 export const Role = styled.p`
   margin:0;
-  width:100%;
   padding-left:10px;
   font-weight:400;
   font-size:16px;
@@ -80,7 +77,6 @@ export const Role = styled.p`
 
 export const Status = styled.p`
   margin:0;
-  width:100%;
   font-weight:700;
   padding-left:10px;
   color:#00ff00;
