@@ -13,6 +13,7 @@ export const BikeItem = (props:T.BikeProps) => {
       <B.Img src={props.bike.img}/>
       <B.Texts>
         <B.Name>{props.bike.name}</B.Name>
+        <B.Energy>Carregando na Doca {props.bike.doca}</B.Energy>
         <B.Energy>Energia: {props.bike.energy}%</B.Energy>
         <B.Autonomy>Autonomia {props.bike.autonomy.toFixed(2)} KM</B.Autonomy>
       </B.Texts>

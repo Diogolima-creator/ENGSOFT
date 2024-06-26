@@ -42,7 +42,7 @@ export const Title = styled.h1`
 
 export const Paragraph = styled.p`
   margin:0;
-  color:grey;
+  color:#454545;
   letter-spacing:1px;
 `;
 
@@ -107,7 +107,7 @@ export const Name = styled.p`
 
 export const Bike = styled.p`
 margin:0;
-color:grey;
+color:#454545;
 `;
 
 export const Km = styled.p`

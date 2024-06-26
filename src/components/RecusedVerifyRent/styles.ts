@@ -24,7 +24,7 @@ export const Button = styled.button`
   font-family: "Inter", sans-serif;
   border-radius:5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color:grey;
+  color:#454545;
   font-weight:bold;
   border:none;
   outline:none;

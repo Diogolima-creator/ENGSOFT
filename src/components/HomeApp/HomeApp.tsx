@@ -10,30 +10,33 @@ export const HomeApp = (props:T.Screen) => {
     name:'Pedro Conte',
     bike:'Bicicleta Eletrica',
     km: 12,
-    url: './../../pedro.png'
+    url: './../../pedro.png',
+    points: 5
   },{
     name:'Teilor Ferraz',
     bike:'Bicicleta Eletrica',
     km: 9,
-    url: './../../teylor.png'
+    url: './../../teylor.png',
+    points: 5
   },{
     name:'Davi Mortari',
     bike:'Bicicleta Eletrica',
     km: 5,
-    url: './../../davi.png'
+    url: './../../davi.png',
+    points: 3
   },{
     name:'Diogo Lima',
     bike:'Bicicleta Eletrica',
     km: 3,
-    url: './../../diogo.png'
+    url: './../../diogo.png',
+    points: 1
   }]
-
 
   return (
     <H.Home>
       <H.Header>
-        <DragHandleIcon sx={{ width:26, height: 26, cursor:'pointer' }}/>
-        <PersonIcon sx={{ width:26, height: 26, cursor:'pointer', borderRadius:'45px' }}/>
+        <DragHandleIcon  sx={{ width:26, height: 26, cursor:'pointer' }}/>
+        <PersonIcon onClick={() => props.setPage(5)} sx={{ width:26, height: 26, cursor:'pointer', borderRadius:'45px' }}/>
       </H.Header>
       <H.Body>
         <H.Texts>
@@ -42,7 +45,7 @@ export const HomeApp = (props:T.Screen) => {
         </H.Texts>
         <H.Card>
           <h1>BIKE UFMS</h1>
-          <H.Button>ALUGAR AGORA</H.Button>
+          <H.Button onClick={() => props.setPage(4)}>ALUGAR AGORA</H.Button>
         </H.Card>
         <H.Users>
           <H.HeaderUser>Usuarios mais frequentes</H.HeaderUser>
@@ -52,7 +55,7 @@ export const HomeApp = (props:T.Screen) => {
             <H.ProfilePic src={user.url}/>
             <H.Info>
                 <H.Name>{user.name}</H.Name>
-                <H.Bike>{user.bike}</H.Bike>
+                <H.Bike>Pontuação: {user.points}.00</H.Bike>
                 <H.Km>{user.km} KM</H.Km>
             </H.Info>
           </H.UserItem>

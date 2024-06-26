@@ -40,7 +40,7 @@ export const BikeRent = (props:T.BikeProps) => {
               <B.Date>9:00</B.Date>
           </B.Block>
           <B.Block>
-              <B.Autonomy>Data da retirada</B.Autonomy>
+              <B.Autonomy>Data da entrega</B.Autonomy>
               <B.Date>1 de Julho, 2024</B.Date>
               <B.Date>17:00</B.Date>
           </B.Block>

@@ -1,14 +1,14 @@
-import * as C from './styles'
+import * as R from './styles'
 import * as T from '../../types/types'
 import CancelIcon from '@mui/icons-material/Cancel';
 
 export const RecusedVerifyRent = (props:T.Screen) => {
   return (
-    <C.Verify>
+    <R.Verify>
         <CancelIcon sx={{ width:156, height:156, color:'red'}}/>
-        <C.Paragraph>Seu aluguel falhou, entre em contato com a assistencia tecnica.</C.Paragraph>
-        <C.Button onClick={() => props.setPage(0)}>Solicitar suporte tecnico</C.Button>
-        <C.ButtonBack onClick={() => props.setPage(6)}>Voltar</C.ButtonBack>
-    </C.Verify>
+        <R.Paragraph>Seu aluguel falhou, entre em contato com a assistencia tecnica.</R.Paragraph>
+        <R.Button onClick={() => props.setPage(9)}>Solicitar suporte tecnico</R.Button>
+        <R.ButtonBack onClick={() => props.setPage(6)}>Voltar</R.ButtonBack>
+    </R.Verify>
   )
 }

@@ -19,75 +19,89 @@ export const Header = styled.div`
   gap:20px;
 `;
 
-export const Content = styled.div`
-  height:80%;
-  width:100%;
-  display:flex;
-  align-items:center;
-  flex-direction:column;
-  gap:5px;
-`;
-
-export const ProfilePic = styled.img`
-  border-radius:90px;
-  height:156px;
-  width:156px;
-`;
-
-export const Label = styled.label`
-  color: rgba(127,127,127);
-  font-weight:bold;
-  margin-top:12px;
-  font-size:15px;
-  text-align:start;
-  width:70%;
-`;
-
-export const Input = styled.input`
-  border-radius:5px;
-  width:250px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  background-color:rgba(127,127,127, .15);
-  outline:none;
-  font-size:18px;
-  border:none;
-  font-family: "Inter", sans-serif;
-  color: rgba(127,127,127);
-  padding:10px;
-`;
-
-export const Button = styled.button`
-  padding:15px 15px;
-  background-color:#4181FF;
-  font-family: "Inter", sans-serif;
-  border-radius:5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color:white;
-  font-weight:bold;
-  border:none;
-  outline:none;
-  cursor:pointer;
-  width:85%;
-  height:55px;
-  font-size:16px;
-  transition: 0.6s;
-  font-weight:200;
-  margin-top:15px;
-
-  &:disabled {
-    background-color: rgba(127,127,127, .6);
-    cursor: not-allowed;
-  }
-
-  &:hover{
-    opacity: .8;
-    text-decoration:underline;
-  }
-
-`;
-
 export const Text = styled.p`
   font-weight:500;
   font-size:18px;
   margin:0;
+`;
+
+export const HeaderBackGround = styled.div`
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-itens:center;
+  height:25%;
+  background-color:#4181FF;
+  border-radius:5px 5px 0 0 ;
+`;
+
+export const ProfilePic = styled.img`
+  height:75px;
+  border-radius:45px;
+  width:75px;
+  position:relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top:95px;
+`;
+
+export const HeaderItems = styled.div`
+  width:25%;
+  height:100%;
+  display:flex;
+  padding-left:10%;
+  padding-top:5%;
+  flex-direction:column;
+  justify-content:space-between;
+`;
+
+export const Content = styled.div`
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  width:80%;
+  padding-top:50px;
+`;
+
+export const Info = styled.div`
+  display:flex;
+  flex-direction:column;
+  gap:1px;
+`;
+
+export const Name = styled.p`
+  margin:0;
+  letter-spacing:1px;
+  font-weight:600;
+`;
+
+export const Paragraph = styled.p`
+  margin:0;
+  letter-spacing:1px;
+  color:#454545;
+`;
+
+export const Menu = styled.div`
+  margin-top:20px;
+
+  .icon{
+    height:26px;
+    width:26px;
+  }
+`;
+
+export const MenuItem = styled.div`
+  display:flex;
+  height:45px;
+  gap:20px;
+  transition: 0.5s;
+  font-weight:500;
+  color:black;
+  align-items:center;
+  padding:0 5px;
+
+  &:hover{
+    cursor:pointer;
+    background-color:rgba(0,0,0, .1);
+    opacity: .7;
+  }
 `;

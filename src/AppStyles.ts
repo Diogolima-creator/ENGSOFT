@@ -32,8 +32,8 @@ export const Container = styled.div`
 
   @keyframes slide-in-fwd-left {
   0% {
-  opacity:.7;
-    transform: translateZ(-500px) translateX(-20px);
+    opacity:.7;
+    transform: translateZ(-500px) translateX(-5px);
   }
   100% {
   opacity:1;
@@ -142,12 +142,53 @@ export const Container = styled.div`
     opacity: 1;
   }
 }
+
+@keyframes text-left {
+  0%{
+    opacity:0;
+  }
+  80% {
+    opacity:0;
+    transform: translateZ(-500px) translateX(40px);
+  }
+  100% {
+  opacity:1;
+    transform: translateZ(0) translateX(0);
+  }
+  }
+
+  @keyframes text-right {
+  0%{
+    opacity:0;
+  }
+  80% {
+    opacity:0;
+    transform: translateZ(-500px) translateX(-20px);
+  }
+  100% {
+  opacity:1;
+    transform: translateZ(0) translateX(0);
+  }
+  }
+
+  @keyframes test{
+  0%{
+    opacity:0;
+  }
+  98%{
+    opacity:0;
+  }
+  100% {
+  opacity:1;
+    transform: translateZ(0) translateX(0);
+  }
+  }
 `;
 
 export const Mobile = styled.div`
   width:373px;
-  background-color: #f0f8ff;
   height:800px;
+  background-color: #f0f8ff;
   display:flex;
   align-items:center;
   justify-content:center;
